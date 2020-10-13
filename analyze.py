@@ -1,4 +1,4 @@
-#!/usr/env/python3
+#!/usr/bin/env python3
 
 import argparse
 
@@ -6,7 +6,7 @@ import numpy as np
 
 
 def main():
-    parser = argparse.ArgumentParser("This script is to analyze the output of the image complexity")
+    parser = argparse.ArgumentParser(description="This script is to analyze the output of the image complexity extracting program.")
     parser.add_argument("input", help="The input file", type=str)
     parser.add_argument("--html-format", action="store_true",
                         help="Generate html format output for the convenience of copying/pasting to Excel/Google Sheet/Apple Numbers.")

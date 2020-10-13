@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 
     int totalFrames = int(cap.get(CV_CAP_PROP_FRAME_COUNT));
 
-    while (1) {
+    while (true) {
         Mat frame;
         Mat frame_LAB;
         Mat channels[3];
