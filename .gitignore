@@ -1,0 +1,7 @@
+build/
+dependencies/
+opencv/
+
+# IntelliJ Clion
+cmake-build-debug/
+.idea/
